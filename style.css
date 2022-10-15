@@ -7,12 +7,15 @@
 
     --main-bk: #FAFBF6;
     --txt: #41474C;
-    --sec-heading: #7F878C;
     --prim-accent: #9BC139;
-    --sec-accent: #E35621;
-    --btn: #3da9fc;
     --serif: 'Libre Bakerville', 'serif';
     --sans-serif: 'Lato', 'sans-serif';
+}
+
+.dark-theme {
+    --main-bk: #17171A;
+    --txt: #FFFFFE;
+    --prim-accent: #7E60EA;
 }
 
 body {
@@ -78,6 +81,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav li {
@@ -89,6 +93,12 @@ nav a {
     font-size: 1.2em;
     font-weight: 700;
     color: var(--txt);
+}
+
+#mode-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 2em;
 }
 
 
@@ -150,6 +160,10 @@ nav a {
     }
     
     nav li {
+        margin-left: 1em;
+    }
+
+    #mode-icon {
         margin-left: 1em;
     }
 }
@@ -1060,7 +1074,7 @@ form button {
 }
 
 .contact-icon {
-    margin: 2em;
+    margin: 2em 1.5em;
 }
 
 

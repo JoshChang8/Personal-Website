@@ -9,6 +9,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+//Dark Theme
+var icon = document.getElementById("mode-icon");
+
+icon.onclick = function(){
+  document.body.classList.toggle("dark-theme");
+
+  if (document.body.classList.contains("dark-theme")) {
+    icon.src = "/images/sun.png";
+  }
+
+  else {
+    icon.src = "/images/moon.png";
+  }
+}
+
 //Fade in animations 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
