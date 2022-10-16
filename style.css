@@ -1,10 +1,4 @@
 :root{
-    /* off-white bk: #FAFBF6
-    dark grey txt: #41474C */
-    /* light grey txt: #7F878C */
-    /* orange: E35621 */
-    /* lime green: #9BC139 */
-
     --main-bk: #FAFBF6;
     --txt: #41474C;
     --prim-accent: #9BC139;
@@ -55,9 +49,11 @@ Navigation Header
 header {
     position: fixed;
     top: 0;
+    height: auto;
     background-color: var(--main-bk);
     z-index: 5;
     width: 90%;
+    margin: 2em;
     max-width: 980px;
     display: flex;
     justify-content: space-between;
