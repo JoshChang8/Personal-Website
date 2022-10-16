@@ -57,8 +57,7 @@ header {
     top: 0;
     background-color: var(--main-bk);
     z-index: 5;
-    width: 91%;
-    /* width: 100%; */
+    width: 90%;
     max-width: 980px;
     display: flex;
     justify-content: space-between;
