@@ -202,9 +202,6 @@ button {
     animation: secFadeIn .5s;
     color: var(--txt);
     border: none;
-    /* animation: ease-out .3s; */
-    /* transition: ease-out .3s; */
-    /* animation-delay: 3s; */
     font-size: 1.2rem;
     outline: none;
     position: relative;
@@ -213,13 +210,7 @@ button {
     letter-spacing: 1px;
     margin-right: 1em;
     text-decoration: none;
-
     animation: mainFadeIn 2s forwards;
-    /* animation-delay: 4s; */
-
-    /* animation-name: rotate;
-    animation-duration: 0.7s;
-    animation-delay: 2s; */
 }
 
 #btn-resume:hover, #btn-contact:hover {
@@ -228,30 +219,7 @@ button {
     transform: scale(1.2);
 }
 
-/* .btn-resume::before, .btn-contact::before {
-    transition: 0.5s all ease;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    opacity: 0;
-    content: "";
-    background-color: var(--btn);
-    border-radius: 5px;
-}
-
-.btn-resume:hover::before, .btn-contact:hover::before {
-    transition: 0.5s all ease;
-    left: 0;
-    right: 0;
-    opacity: 1;
-    z-index: -1;
-}  */
-
 #home .box {
-    /* width: 250px;
-    height: 250px; */
     width: 5 rem;
     height: 5rem;
     position: relative;
@@ -297,7 +265,6 @@ button {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-
     background: var(--prim-accent);
     -webkit-animation: load 0.6s cubic-bezier(.74, .06, .4, .92) forwards;
     animation: popIn 0.8s cubic-bezier(.74, .06, .4, .92) forwards;
@@ -314,9 +281,7 @@ button {
     position: relative;
     display: flex;
     align-items: center;
-    /* height: 30px; */
     height: 1.5rem;
-    /* margin-top: -10px; */
     margin-top: 1rem;
 }
 
@@ -334,12 +299,10 @@ button {
     animation: secFadeIn 1s forwards;
     animation-delay: 3.2s;
     opacity: 0;
-    /* color: var(--prim-accent); */
     color: var(--txt);
     font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
-    /* letter-spacing: 5px; */
 }
 
 
@@ -435,7 +398,6 @@ button {
   @media (max-width: 675px){
 
     .buttons {
-        /* border: 3px solid magenta; */
         margin-top: .5em;
         display: flex;
         flex-direction: row;
@@ -464,8 +426,6 @@ button {
     }
     
     #home .box {
-        /* width: 250px;
-        height: 250px; */
         width: 3 rem;
         height: 3 rem;
         position: relative;
@@ -485,14 +445,12 @@ button {
     #home .box .title .block {
         width: 0%;
         height: inherit;
-        /* background: var(--btn); */
         position: absolute;
         animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
         display: flex;
     }
     
     #home .box .title h1 {
-        /* color: var(--txt); */
         font-size: 2rem;
         -webkit-animation: mainFadeIn 2s forwards;
         -o-animation: mainFadeIn 2s forwards;
@@ -527,9 +485,7 @@ button {
         position: relative;
         display: flex;
         align-items: center;
-        /* height: 30px; */
         height: 1.5rem;
-        /* margin-top: -10px; */
         margin-top: 0.5rem;
     }
     
@@ -548,10 +504,8 @@ button {
         animation-delay: 3.2s;
         opacity: 0;
         color: var(--txt);
-        /* font-size: 12px; */
         font-size: 1rem;
         text-transform: uppercase;
-        /* letter-spacing: 5px; */
     }
 
 }
@@ -559,8 +513,6 @@ button {
 /* ==========================
 About Me Page
 ========================== */
-
-
 #about h1 {
     font-family: var(--serif);
     color: var(--prim-accent);
@@ -573,7 +525,6 @@ About Me Page
     color: var(--txt);
     font-size: 1.2em;
     text-align: center;
-    /* font-size: 1em; */
 }
 
 #about h3 {
@@ -627,7 +578,6 @@ About Me Page
 @media (max-width: 800px){
     .row-1 {
         display: block;
-        /* text-align: center; */
     }
 
     .fir-col-1 {
@@ -786,7 +736,6 @@ About Me Page
 .carousel {
     align-items: center;
     display: flex;
-    /* margin: 2rem auto; */
     overflow: hidden;
     position: relative;
     width: 300px; 
@@ -823,12 +772,10 @@ About Me Page
 
 #previous {
     margin-right: 5px;
-    /* left: 5px; */
 }
 
 #next {
     margin-left: 5px;
-    /* right: 5px; */
 }
 
 .carousel_button:hover {
@@ -840,29 +787,9 @@ About Me Page
     display: flex;
     align-items: center;
     text-align: center;
-    /* background: blue; */
     padding: 0 2em ;
 
 }
-
-/* @media (max-width: 700px){
-
-    .row-3 {
-        display: block;
-        width: 100%;
-    }
-
-    .fir-col-3 {
-        text-align: center;
-        width: 100%;
-    }
-
-    .sec-col-3 {
-        width: 100%;
-    }
-
-} */
-
 
 /* ==========================
 Projects Page
@@ -888,7 +815,6 @@ Projects Page
 #projects p {
     color: var(--txt);
     font-size: 1.2em;
-    /* margin: 0; */
 }
 
 #projects h3 {
@@ -904,14 +830,12 @@ Projects Page
 }
 
 #projects .buttons {
-    /* margin-bottom: 1em;  */
     display: flex;
     flex-direction: row;
     justify-content: left;
 }
 
 #btn-projects {
-    /* color: var(--txt); */
     color: var(--prim-accent);
     font-weight: bold;
     transition: ease-out 0.3s;
@@ -937,7 +861,6 @@ Projects Page
         bottom: 0;
         opacity: 0;
         content: "";
-        /* background-color: var(--btn); */
         border-radius: 10px;
     }
     
@@ -957,22 +880,18 @@ Projects Page
     flex-direction: row;
     align-items: center;
     margin-bottom: 2em;
-    /* border: 5px solid pink; */
 }
 
 .col-1 {
     padding-right: 1em;
     text-align: center;
     width: 60%;
-    /* border: 5px solid green; */
 }
 
 .col-2 {
     padding-top: 0;
     width: 40%;
-    /* background-color: red; */
     text-align: center;
-    /* border: 5px solid green; */
 }
 
 @media (max-width: 800px){
@@ -992,11 +911,7 @@ Projects Page
 Contact Page
 ========================== */
 .contact {
-    /* background: blue; */
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 #contact h1 {
@@ -1015,9 +930,7 @@ Contact Page
 
 form {
     display: flex;
-    /* flex-direction: column; */
     padding: 0 2em;
-    /* border-radius: 10px; */
 }
 
 .contact-fir-col {
